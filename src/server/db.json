@@ -1,0 +1,347 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Premium Nakshi Katha - 1",
+            "price": 299.99,
+            "image": "https://drive.google.com/file/d/1j_NM3hD8GVLB3tB0X6RF9NdNa6qqn3Jb/view?usp=sharing",
+            "rating": 5,
+            "category": "katha",
+            "description": "An intricately designed traditional Nakshi Katha, perfect for adding elegance to your home."
+        },
+        {
+            "id": 2,
+            "name": "Premium Nakshi Katha - 2",
+            "price": 399.99,
+            "image": "https://drive.google.com/file/d/1R0lAqBKtZb8Mjoz2Ey9dbNZ4bgGm1cI_/view?usp=sharing",
+            "rating": 4.5,
+            "category": "katha",
+            "description": "A premium quality Nakshi Katha with detailed handwork, ideal for any cultural home decor."
+        },
+        {
+            "id": 3,
+            "name": "Premium Nakshi Katha - 3",
+            "price": 350.0,
+            "image": "https://drive.google.com/file/d/1oXSFExbQvyTI90_HRWGr25s8C8fuscub/view?usp=sharing",
+            "rating": 4.2,
+            "category": "katha",
+            "description": "A traditional Nakshi Katha featuring vibrant embroidery patterns, perfect for giving your home a cultural touch."
+        },
+        {
+            "id": 4,
+            "name": "Premium Nakshi Katha - 4",
+            "price": 299.99,
+            "image": "https://drive.google.com/file/d/1M5Beg7SrG3bV-ccHO3YT3m8wsJbyPlu0/view?usp=sharing",
+            "rating": 4.1,
+            "category": "katha",
+            "description": "This handwoven Nakshi Katha is rich in design and craftsmanship, a perfect addition to your living room."
+        },
+        {
+            "id": 5,
+            "name": "Premium Nakshi Katha - 5",
+            "price": 279.99,
+            "image": "https://drive.google.com/file/d/1rxjsIeRcf8QMhw9flGSNE1WXqAAvpujG/view?usp=sharing",
+            "rating": 4.3,
+            "category": "katha",
+            "description": "A beautifully crafted Nakshi Katha with detailed embroidery, ideal for a traditional home setting."
+        },
+        {
+            "id": 6,
+            "name": "Premium Nakshi Katha - 6",
+            "price": 320.0,
+            "image": "https://drive.google.com/file/d/1s631OzZ1Fy3QvKacJ1YssIBvZNZXE3lb/view?usp=sharing",
+            "rating": 4.0,
+            "category": "katha",
+            "description": "This Nakshi Katha is a blend of traditional embroidery and modern design, perfect for adding elegance to any space."
+        },
+        {
+            "id": 7,
+            "name": "Premium Nakshi Katha - 7",
+            "price": 250.0,
+            "image": "https://drive.google.com/file/d/1-FSCwBwwQOsC-EGuayCTbEH9gw_VBaM3/view?usp=sharing",
+            "rating": 3.8,
+            "category": "katha",
+            "description": "A unique piece of Nakshi Katha that showcases fine handwork with bright, colorful embroidery."
+        },
+        {
+            "id": 8,
+            "name": "Premium Nakshi Katha - 8",
+            "price": 279.99,
+            "image": "https://drive.google.com/file/d/1fKCtiUHWutCxW7kxH52tILw-V8-uPcMm/view?usp=sharing",
+            "rating": 4.0,
+            "category": "katha",
+            "description": "This Nakshi Katha features an intricate pattern with bright colors, adding a vibrant traditional touch to your decor."
+        },
+        {
+            "id": 9,
+            "name": "Premium Nakshi Katha - 9",
+            "price": 300.0,
+            "image": "https://drive.google.com/file/d/12Ez2oyhVHHx62N0RbhCMCTn-kvMuLqwb/view?usp=sharing",
+            "rating": 4.3,
+            "category": "katha",
+            "description": "This beautifully handwoven Nakshi Katha features traditional designs, perfect for enhancing your interior."
+        },
+        {
+            "id": 10,
+            "name": "Premium Nakshi Katha - 10",
+            "price": 350.0,
+            "image": "https://drive.google.com/file/d/12bK1giHsJmtrXG2s_AfxGoYYpfXKtRbM/view?usp=sharing",
+            "rating": 4.4,
+            "category": "katha",
+            "description": "A Nakshi Katha with refined embroidery and beautiful motifs, perfect for adding a touch of culture to your home."
+        },
+        {
+            "id": 11,
+            "name": "Premium Nakshi Katha - 11",
+            "price": 325.0,
+            "image": "https://drive.google.com/file/d/1J19AUveSm7Ih41QiVUKJK24TUKij_cz4/view?usp=sharing",
+            "rating": 3.9,
+            "category": "katha",
+            "description": "This stunning Nakshi Katha showcases fine craftsmanship and is perfect for home decoration."
+        },
+        {
+            "id": 12,
+            "name": "Premium Nakshi Katha - 12",
+            "price": 350.0,
+            "image": "https://drive.google.com/file/d/1e9ZoiUqBLZR7Sk-BqIUyY9nnewhMj2eF/view?usp=sharing",
+            "rating": 4.2,
+            "category": "katha",
+            "description": "A handcrafted Nakshi Katha featuring intricate designs, ideal for those who love traditional and cultural art."
+        },
+        {
+            "id": 13,
+            "name": "Premium Nakshi Katha - 13",
+            "price": 375.0,
+            "image": "https://drive.google.com/file/d/1lmEoGW8hesqMD8MXQU0VC3IZ0vN62elu/view?usp=sharing",
+            "rating": 4.1,
+            "category": "katha",
+            "description": "An elegant Nakshi Katha with rich, vibrant colors, perfect for creating a traditional yet modern ambiance."
+        },
+        {
+            "id": 14,
+            "name": "Premium Nakshi Katha - 14",
+            "price": 380.0,
+            "image": "https://drive.google.com/file/d/1MnYuuZQT34XOPSey2YmGvYzhGPW2c6GR/view?usp=sharing",
+            "rating": 4.2,
+            "category": "katha",
+            "description": "This Nakshi Katha combines classic design with bright embroidery, making it an eye-catching piece for your home."
+        },
+        {
+            "id": 15,
+            "name": "Premium Nakshi Katha - 15",
+            "price": 450.0,
+            "image": "https://drive.google.com/file/d/1j1rTjt_7vQ7-H91GkKysurtmthmrlXLZ/view?usp=sharing",
+            "rating": 4.3,
+            "category": "katha",
+            "description": "A premium Nakshi Katha that brings traditional art and vibrant colors into any home decor."
+        },
+        {
+            "id": 16,
+            "name": "Premium Nakshi Katha - 16",
+            "price": 399.99,
+            "image": "https://drive.google.com/file/d/1RqcUKzO1sc6Rkxa6bkPDx1O8889QhDWq/view?usp=sharing",
+            "rating": 4.5,
+            "category": "katha",
+            "description": "A luxurious Nakshi Katha, known for its detailed handcrafting and traditional appeal."
+        },
+        {
+            "id": 17,
+            "name": "Premium Nakshi Katha - 17",
+            "price": 300.0,
+            "image": "https://drive.google.com/file/d/1jQO60rm7bMcA4cU1hENzrAdM-2kKkHL9/view?usp=sharing",
+            "rating": 4.0,
+            "category": "katha",
+            "description": "This Nakshi Katha adds a burst of color and heritage to your living space with its fine craftsmanship."
+        },
+        {
+            "id": 18,
+            "name": "Custom Nakshi Katha - 1",
+            "price": 399.99,
+            "image": "https://drive.google.com/file/d/1k5Q--KDL_p9R395Zndqb-UZ_lvd_SCny/view?usp=sharing",
+            "rating": 4.3,
+            "category": "katha",
+            "description": "A custom-designed Nakshi Katha made to match your unique interior style with traditional appeal."
+        },
+        {
+            "id": 19,
+            "name": "Custom Nakshi Katha - 2",
+            "price": 320.0,
+            "image": "https://drive.google.com/file/d/1eMY-2S-QS1uNDpsdqFP34Dice2lyyUfi/view?usp=sharing",
+            "rating": 4.1,
+            "category": "katha",
+            "description": "This custom Nakshi Katha offers intricate handwork, making it a perfect piece for those looking for unique decor."
+        },
+        {
+            "id": 20,
+            "name": "Nakshi Gamcha",
+            "price": 250.0,
+            "image": "https://drive.google.com/file/d/1rgCvDh94mZshVxOq5WkY5-Ef3XkQoERh/view?usp=sharing",
+            "rating": 3.9,
+            "category": "gamcha",
+            "description": "A traditional Nakshi Gamcha with fine embroidery, perfect for adding cultural warmth to any space."
+        },
+        {
+            "id": 21,
+            "name": "Premium Nakshi Dairy - 1",
+            "price": 299.99,
+            "image": "https://drive.google.com/file/d/1-88ZyXWlUgu3p0O42G-iDXqhSoYvpZ5x/view?usp=sharing",
+            "rating": 4.2,
+            "category": "dairy",
+            "description": "A finely crafted Nakshi Dairy with intricate designs and vibrant colors, perfect for your collection."
+        },
+        {
+            "id": 22,
+            "name": "Premium Nakshi Dairy - 2",
+            "price": 349.99,
+            "image": "https://drive.google.com/file/d/1py7kq0vJQupHkFVlBqq0wzZJK2xAp5aX/view?usp=sharing",
+            "rating": 4.1,
+            "category": "dairy",
+            "description": "This Nakshi Dairy offers a traditional and detailed pattern, bringing heritage and beauty into your space."
+        },
+        {
+            "id": 23,
+            "name": "Premium Nakshi Dairy - 3",
+            "price": 325.0,
+            "image": "https://drive.google.com/file/d/13enp4d-mjLm0oN5cgbEDOfmBeXxOhaKv/view?usp=sharing",
+            "rating": 4.3,
+            "category": "dairy",
+            "description": "An elegant Nakshi Dairy that combines delicate handwork with vibrant colors for a stunning display."
+        },
+        {
+            "id": 24,
+            "name": "Premium Nakshi Dairy - 4",
+            "price": 279.99,
+            "image": "https://drive.google.com/file/d/1ANGjIgRzwyNd2-ZXArw9EJLf16pEAMy-/view?usp=sharing",
+            "rating": 4.0,
+            "category": "dairy",
+            "description": "A beautifully crafted Nakshi Dairy with exquisite embroidery, perfect for adding a touch of elegance."
+        },
+        {
+            "id": 25,
+            "name": "Premium Nakshi Cushion Cover - 1",
+            "price": 299.99,
+            "image": "https://drive.google.com/file/d/17e_tpPgL5ufN_rF7lFx-2bXDUn5fbKbB/view?usp=sharing",
+            "rating": 4.4,
+            "category": "cushion-cover",
+            "description": "A traditional Nakshi cushion cover with fine detailing, designed to bring comfort and style to your home."
+        },
+        {
+            "id": 26,
+            "name": "Premium Nakshi Cushion Cover - 2",
+            "price": 350.0,
+            "image": "https://drive.google.com/file/d/1GSdCoX2SVvk1T3a-LL1JOWaSnpeLxSAS/view?usp=sharing",
+            "rating": 4.5,
+            "category": "cushion-cover",
+            "description": "A beautiful cushion cover made from premium Nakshi fabric, offering vibrant patterns and rich colors."
+        },
+        {
+            "id": 27,
+            "name": "Premium Nakshi Cushion Cover - 3",
+            "price": 325.0,
+            "image": "https://drive.google.com/file/d/12B1f8NFl83Ofwo2BpAyAcBcdTHJxKT31/view?usp=sharing",
+            "rating": 4.3,
+            "category": "cushion-cover",
+            "description": "This cushion cover showcases detailed embroidery with a traditional flair, perfect for any cozy space."
+        },
+        {
+            "id": 28,
+            "name": "Premium Nakshi Cushion Cover - 4",
+            "price": 279.99,
+            "image": "https://drive.google.com/file/d/1wIjfLAZeAF-Cj4KWFSfo8B7PqSPSfW09/view?usp=sharing",
+            "rating": 4.2,
+            "category": "cushion-cover",
+            "description": "Handcrafted with care, this Nakshi cushion cover adds a touch of culture and elegance to your living room."
+        },
+        {
+            "id": 29,
+            "name": "Premium Nakshi Cushion Cover - 5",
+            "price": 330.0,
+            "image": "https://drive.google.com/file/d/1HJq_c_zKbEICJ43DSdnnlnWF78ELZI35/view?usp=sharing",
+            "rating": 4.1,
+            "category": "cushion-cover",
+            "description": "A stunning cushion cover made with traditional Nakshi techniques, bringing timeless beauty to your home."
+        },
+        {
+            "id": 31,
+            "name": "Premium Bed Nakshi Cover - 1",
+            "price": 399.99,
+            "image": "https://drive.google.com/file/d/1XCDXJOPsx9UeIiSVNF7PVy8WtL4doFaC/view?usp=sharing",
+            "rating": 4.5,
+            "category": "bed-cover",
+            "description": "A luxurious Nakshi bed cover featuring detailed embroidery, designed to enhance your bedroom's aesthetic."
+        },
+        {
+            "id": 32,
+            "name": "Premium Bed Nakshi Cover - 2",
+            "price": 450.0,
+            "image": "https://drive.google.com/file/d/19Gb2cZRCQtDy56ep4nXb71Q-Tdo16qEQ/view?usp=sharing",
+            "rating": 4.4,
+            "category": "bed-cover",
+            "description": "This Nakshi bed cover offers fine craftsmanship and vibrant patterns, perfect for adding elegance to any bed."
+        },
+        {
+            "id": 33,
+            "name": "Premium Bed Nakshi Cover - 3",
+            "price": 375.0,
+            "image": "https://drive.google.com/file/d/1-S889mc7T6ufe8GCQrIeMN_Dk0eWzss0/view?usp=sharing",
+            "rating": 4.3,
+            "category": "bed-cover",
+            "description": "A meticulously crafted Nakshi bed cover, ideal for creating a traditional yet contemporary look in your bedroom."
+        },
+        {
+            "id": 34,
+            "name": "Premium Bed Nakshi Cover - 4",
+            "price": 399.99,
+            "image": "https://drive.google.com/file/d/1KtkSsVQDRhFFPKLIjmRXLO0Z1jrSsI6G/view?usp=sharing",
+            "rating": 4.2,
+            "category": "bed-cover",
+            "description": "This Nakshi bed cover combines fine embroidery with vivid colors, perfect for enhancing the beauty of your bed."
+        },
+        {
+            "id": 35,
+            "name": "Premium Bed Nakshi Cover - 5",
+            "price": 330.0,
+            "image": "https://drive.google.com/file/d/1JAOxXSBHf-38tIcebYR07fxLcjpOzzue/view?usp=sharing",
+            "rating": 4.0,
+            "category": "bed-cover",
+            "description": "A traditional Nakshi bed cover with vibrant patterns, adding a cultural touch to your bedroom decor."
+        },
+        {
+            "id": 36,
+            "name": "Premium Bed Nakshi Cover - 6",
+            "price": 350.0,
+            "image": "https://drive.google.com/file/d/1i7qkNUzJyGSFxSJPNsPehi33b-RLPsaH/view?usp=sharing",
+            "rating": 4.3,
+            "category": "bed-cover",
+            "description": "A Nakshi bed cover made with intricate designs and colorful embroidery, perfect for your home."
+        },
+        {
+            "id": 37,
+            "name": "Premium Bed Nakshi Cover - 7",
+            "price": 275.0,
+            "image": "https://drive.google.com/file/d/1ZsoVTMjjldp_THECGXLkv27MJrVV2Mak/view?usp=sharing",
+            "rating": 4.1,
+            "category": "bed-cover",
+            "description": "This Nakshi bed cover adds a touch of elegance to your bed, featuring detailed craftsmanship and traditional patterns."
+        },
+        {
+            "id": 38,
+            "name": "Premium Bed Nakshi Cover - 8",
+            "price": 320.0,
+            "image": "https://drive.google.com/file/d/11S2QNFw_ELQghdM2rqzW46WEn1oGeLwA/view?usp=sharing",
+            "rating": 4.2,
+            "category": "bed-cover",
+            "description": "A stunning Nakshi bed cover with intricate patterns, ideal for adding cultural warmth to your bedroom."
+        },
+        {
+            "id": 39,
+            "name": "Premium Bed Nakshi Cover - 9",
+            "price": 350.0,
+            "image": "https://drive.google.com/file/d/1q3qy3VeP7MnEX2e7x2jW8AdEUuhxYk0Z/view?usp=sharing",
+            "rating": 4.4,
+            "category": "bed-cover",
+            "description": "This bed cover features detailed Nakshi embroidery, perfect for making your bedroom more elegant and cozy."
+        }
+    ],
+    "category": ["katha", "dairy", "cushion-cover", "bed-cover", "gamcha"]
+}
