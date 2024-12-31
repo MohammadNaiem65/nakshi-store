@@ -1,77 +1,78 @@
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
+import { BsBoxSeam } from 'react-icons/bs';
+import { GoHome } from 'react-icons/go';
+import { RiShoppingCartLine, RiLoginCircleLine } from 'react-icons/ri';
 
 export default function Navbar() {
     return (
-        <nav className='navbar px-5'>
-            <div className='flex-1'>
-                <a className='btn btn-ghost text-xl'>Nokshi Store</a>
+        <nav className='sticky top-0 bg-white shadow-sm px-5 py-7 flex items-center justify-end z-50'>
+            {/* Logo */}
+            <div className='absolute left-1/2 transform -translate-x-1/2'>
+                <Link
+                    to='/'
+                    className='text-2xl text-transparent font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text transition-colors'
+                >
+                    Nokshi Store
+                </Link>
             </div>
 
-            <div className='flex-none'>
-                <ul className='menu menu-horizontal px-1'>
-                    <li className='my-auto'>
-                        <Link
-                            to='/'
-                            className='hover:bg-transparent hover:scale-110'
-                        >
-                            Home
-                        </Link>
-                    </li>
-                    <li className='my-auto'>
-                        <Link
-                            to='/allProducts'
-                            className='hover:bg-transparent hover:scale-110'
-                        >
-                            All Products
-                        </Link>
-                    </li>
+            {/* Navigation Links */}
+            <div className='flex items-center gap-6'>
+                <NavLink
+                    to='/'
+                    className={({ isActive }) =>
+                        `flex items-center gap-2 hover:text-blue-700 transition-colors ${
+                            isActive ? 'text-[#3B82F6]' : 'text-gray-600'
+                        }`
+                    }
+                >
+                    <GoHome className='size-5' />
+                    <span>Home</span>
+                </NavLink>
 
-                    <li className='dropdown dropdown-end'>
-                        <div
-                            tabIndex={0}
-                            className='hover:bg-transparent hover:scale-110'
-                        >
-                            <div className='indicator'>
-                                <svg
-                                    xmlns='http://www.w3.org/2000/svg'
-                                    className='h-5 w-5'
-                                    fill='none'
-                                    viewBox='0 0 24 24'
-                                    stroke='currentColor'
-                                >
-                                    <path
-                                        strokeLinecap='round'
-                                        strokeLinejoin='round'
-                                        strokeWidth='2'
-                                        d='M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z'
-                                    />
-                                </svg>
-                                <span className='badge badge-sm indicator-item'>
-                                    8
-                                </span>
-                            </div>
-                        </div>
+                <NavLink
+                    to='/all-products'
+                    className={({ isActive }) =>
+                        `flex items-center gap-2 hover:text-blue-700 transition-colors ${
+                            isActive ? 'text-[#3B82F6]' : 'text-gray-600'
+                        }`
+                    }
+                >
+                    <BsBoxSeam className='size-5' />
+                    <span>All Products</span>
+                </NavLink>
 
-                        <div
-                            tabIndex={0}
-                            className='card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow'
-                        >
-                            <div className='card-body'>
-                                <span className='text-lg font-bold'>
-                                    8 Items
-                                </span>
-                                <span className='text-info'>
-                                    Subtotal: $999
-                                </span>
-                                <div className='card-actions'>
-                                    <button className='btn btn-primary btn-block'>
-                                        View cart
-                                    </button>
-                                </div>
-                            </div>
+                {/* Cart Icon */}
+                <div className='relative group'>
+                    <NavLink
+                        to='/cart'
+                        className={({ isActive }) =>
+                            `flex items-center gap-2 hover:text-blue-700 transition-colors ${
+                                isActive ? 'text-[#3B82F6]' : 'text-gray-600'
+                            }`
+                        }
+                    >
+                        <div className='relative'>
+                            <RiShoppingCartLine className='size-5' />
+                            <span className='absolute -top-2 -right-2 bg-blue-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center'>
+                                8
+                            </span>
                         </div>
-                    </li>
-                </ul>
+                        Cart
+                    </NavLink>
+                </div>
+
+                <NavLink
+                    to='/login'
+                    className={({ isActive }) =>
+                        `flex items-center gap-2 hover:text-blue-700 transition-colors ${
+                            isActive ? 'text-[#3B82F6]' : 'text-gray-600'
+                        }`
+                    }
+                >
+                    <RiLoginCircleLine className='size-5' />
+                    <span>Login</span>
+                </NavLink>
             </div>
         </nav>
     );
