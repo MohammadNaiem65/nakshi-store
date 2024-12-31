@@ -1,25 +1,31 @@
 import { Link } from 'react-router-dom';
-import coverImg from '../../assets/nakshi-katha-cover-3.jpeg';
+import { FaArrowRight } from 'react-icons/fa6';
+import coverImg from '../../assets/nakshi-katha-cover.jpeg';
 
 export default function Hero() {
     return (
-        <section
-            className='hero min-h-[calc(100vh-3.75rem)]'
-            style={{
-                backgroundImage: `url(${coverImg})`,
-            }}
-        >
-            <div className='hero-overlay bg-opacity-60'></div>
-            <div className='hero-content text-neutral-content text-center'>
-                <div className='max-w-md'>
-                    <h1 className='mb-5 text-5xl font-bold'>Hello there</h1>
-                    <p className='mb-5'>
-                        Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                        assumenda excepturi exercitationem quasi. In deleniti
-                        eaque aut repudiandae et a id nisi.
+        <section className='relative mb-10'>
+            <div className='absolute inset-0 bg-black/60 z-10' />
+            <img
+                src={coverImg}
+                alt='Hero background'
+                className='w-full h-screen object-cover'
+            />
+            <div className='absolute inset-0 z-20 flex items-center justify-center text-center'>
+                <div className='max-w-3xl px-4'>
+                    <h1 className='text-4xl md:text-6xl font-bold text-white mb-6'>
+                        Traditional Bengali Craftsmanship
+                    </h1>
+                    <p className='text-xl text-white mb-8'>
+                        Discover the beauty of handcrafted Nakshi Kantha,
+                        bringing centuries of tradition to your modern home
                     </p>
-                    <Link to='/allProducts' className='btn btn-primary'>
-                        Explore All Products
+                    <Link
+                        to='/all-products'
+                        className='inline-flex items-center bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition'
+                    >
+                        Product Collection
+                        <FaArrowRight className='ml-2 h-5 w-5' />
                     </Link>
                 </div>
             </div>
