@@ -1,7 +1,8 @@
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
+import Navbar from './shared/Navbar';
+import Footer from './shared/Footer';
+import Loader from './shared/Loader';
 
 function App() {
     return (
@@ -9,7 +10,7 @@ function App() {
             <Navbar />
 
             <section className='min-h-[calc(100vh-18.5rem)]'>
-                <Suspense>
+                <Suspense fallback={<Loader />}>
                     <Outlet />
                 </Suspense>
             </section>
