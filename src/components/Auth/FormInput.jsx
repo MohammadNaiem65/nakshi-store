@@ -4,6 +4,7 @@ export default function FormInput({
     id,
     placeholder,
     required = true,
+    onChange,
 }) {
     return (
         <div>
@@ -20,6 +21,7 @@ export default function FormInput({
                 required={required}
                 placeholder={placeholder}
                 className='mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm p-2 border'
+                onChange={onChange}
             />
         </div>
     );
