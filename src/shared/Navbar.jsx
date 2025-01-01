@@ -76,9 +76,7 @@ export default function Navbar() {
                             <RiShoppingCartLine className='size-5' />
                             {totalQuantity && user?.data?.id ? (
                                 <span className='absolute -top-2 -right-2 bg-blue-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center'>
-                                    <span className='absolute -top-2 -right-2 bg-blue-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center'>
-                                        {totalQuantity}
-                                    </span>
+                                    {totalQuantity}
                                 </span>
                             ) : null}
                         </div>
