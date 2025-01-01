@@ -1,12 +1,50 @@
-import { Link } from 'react-router-dom';
+import { useState, useContext } from 'react';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
+import { useMutation } from '@tanstack/react-query';
+import { RiLoginCircleLine } from 'react-icons/ri';
+import toast from 'react-hot-toast';
 import AuthLayout from '../../components/Auth/AuthLayout';
 import FormInput from '../../components/Auth/FormInput';
-import { RiLoginCircleLine } from 'react-icons/ri';
+import useAxiosSecure from '../../hooks/useAxiosSecure';
+import AuthContext from '../../contexts/AuthContext';
+import UserContext from '../../contexts/UserContext';
 
 export default function Login() {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const navigate = useNavigate();
+    const location = useLocation();
+    const axiosSecure = useAxiosSecure();
+    const { setAuthToken } = useContext(AuthContext);
+    const { setUser } = useContext(UserContext);
+
+    const { mutate } = useMutation({
+        mutationFn: async () => {
+            const response = await axiosSecure.post('/login', {
+                email,
+                password,
+            });
+
+            return response.data;
+        },
+        onSuccess: (data) => {
+            setAuthToken({ token: data.accessToken });
+            setUser({ data: data.user });
+
+            localStorage.setItem('auth', JSON.stringify(data));
+
+            navigate(location?.state?.from?.pathname || '/');
+        },
+        onError: (error) => {
+            toast.error(error.response.data);
+        },
+    });
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle login logic here
+
+        mutate();
     };
 
     return (
@@ -21,12 +59,14 @@ export default function Login() {
                         type='email'
                         id='email'
                         placeholder='Enter your email'
+                        onChange={(e) => setEmail(e.target.value)}
                     />
                     <FormInput
                         label='Password'
                         type='password'
                         id='password'
                         placeholder='Enter your password'
+                        onChange={(e) => setPassword(e.target.value)}
                     />
                 </div>
 
