@@ -38,8 +38,6 @@ export default function AllProducts() {
         );
     };
 
-    console.log(data);
-
     return (
         <main>
             {/* Hero Section with Search */}
