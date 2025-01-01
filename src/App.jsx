@@ -1,12 +1,17 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
+import useIsAuthenticated from './hooks/useIsAuthenticated';
 import Navbar from './shared/Navbar';
 import Footer from './shared/Footer';
 import Loader from './shared/Loader';
 
 function App() {
-    return (
+    const isAuthenticated = useIsAuthenticated();
+
+    return !isAuthenticated ? (
+        <Loader />
+    ) : (
         <main>
             <Navbar />
 
